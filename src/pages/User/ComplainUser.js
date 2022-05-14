@@ -26,7 +26,7 @@ export default function Complain() {
         const title = "Complain by User";
         document.title = "DumbMerch | " + title;
         
-        socket = io('http://localhost:5000', {
+        socket = io('https://dumbmerch-khairien.herokuapp.com/api/v1', {
             auth: {
                 token: localStorage.getItem("token")
             },
