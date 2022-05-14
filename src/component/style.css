@@ -1,0 +1,330 @@
+body {
+    background-color: black !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* LIGHT THEME */
+.light-theme {
+  background-color: rgb(236, 168, 168) !important;
+}
+.light-theme #root {
+  color: #0b0b0b !important;
+}
+.light-theme .hello {
+  color: rgba(75, 75, 75, 0.8) !important;
+}
+.light-theme .hello {
+  color: rgba(75, 75, 75, 0.8) !important;
+}
+
+.light-theme .bg-card{
+  background-color: rgba(183, 96, 96, 0.7) !important;
+}
+.light-theme .buttonADD{
+  background-color: rgba(183, 96, 96, 0.7) !important;
+  border-color: rgba(136, 68, 68, 0.7);
+}
+.light-theme .kotak{
+  background-color:  rgba(183, 96, 96, 0.7) !important;
+}
+.light-theme .bg-card-product {
+  background-color:  rgba(183, 96, 96, 0.7) !important;
+  color : white !important;
+}
+.light-theme .navbar-toggler{
+  background-color: rgba(75, 75, 75, 0.3);
+  padding: 2px 3px;
+}
+.light-theme .contact:hover {
+  background-color: rgba(134, 133, 133, 0.7) !important;
+}
+.light-theme .contact-active,
+.light-theme .chat-me,
+.light-theme .chat-other{
+  background-color: rgb(128, 124, 124);
+  color: white !important;
+}
+.light-theme .chat-me::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: -15px;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #807c7c;
+  border-bottom: 15px solid transparent;
+}
+.light-theme .chat-other::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -15px;
+  border-top: 15px solid transparent;
+  border-right: 20px solid #807c7c;
+  border-bottom: 15px solid transparent;
+}
+.light-theme .change-theme {
+  color:rgba(247, 77, 77, 1);
+}
+.light-theme .input-message {
+  background-color: #a0a0a0;
+}
+.light-theme .input-message::placeholder {
+  color: #fff6f6 !important;
+}
+  
+.buttonMerah {
+    width: 135px;
+    height: 40px;
+    color: white;
+    background-color: #F74D4D; 
+    border-radius: 5px;
+    border: 0;
+}
+
+.buttonEdit {
+    width: 110px;
+    height: 35px;
+    color: white;
+    background-color:#56C05A !important; 
+    border-radius: 5px;
+    border: 0;
+}
+.buttonADD {
+    width: 75px;
+    height: 33px;
+    color: white;
+    background-color:#1f1f1f; 
+    border-radius: 4px;
+    border: 2px solid rgb(91, 86, 86);
+}
+
+.buttonDelete {
+    width: 110px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+    background-color: #F74D4D !important;   
+    border: 0;
+}
+
+.formLogin {
+
+    align-items: center;
+    width: 416px;
+    height: 366px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #181818;
+
+}
+
+.buttonSave {
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: #56C05A;   
+    border: 0;
+    margin-right: 30px;
+}
+
+.kotak {
+width: 450px !important;
+height: 100px;
+background-color: #242424;
+border-radius: 3px;
+
+}
+
+.buttonBuy {
+    width: 100%;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    background-color: #F74D4D;   
+    border: 0;
+    margin-right: 30px;
+}
+
+
+.talk-bubble {
+	margin: 30px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: auto;
+    padding : 10px;
+	background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.talk-bubble1 {
+	margin: 20px;
+    margin-bottom: 35px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: auto;
+    padding : 10px;
+	background-color: rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+
+    .hello:hover{
+        color: #F74D4D !important;
+
+    }
+
+    .hello {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .inputForm {
+        background-color: rgb(131, 131, 131);
+        border: 1px solid white;
+        border-radius: 4px;
+}
+    .inputSearch {
+        background-color: rgb(0, 0, 0);
+        border: 1px solid rgb(142, 140, 140);
+        height: 35px;
+        margin-top: 5px;
+        border-radius: 4px;
+}
+
+.pembatas {
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+    left: 10px;
+    border-left: 1px solid rgb(75, 75, 75) ;
+}
+
+::placeholder {
+    color: rgb(202, 202, 202) !important;
+}
+
+.error {
+   color: #bb2c2c;
+   margin: 200px;
+   align-items: center;
+   text-align: center;
+}
+/* complain */
+.chat-me {
+    background: #262626;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 400px;
+  }
+  
+  .chat-other {
+    background: #575757;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 400px;
+  }
+  .img-contact {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+  }
+  
+  .img-chat {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover !important;
+  }
+  
+  .text-contact {
+    font-size: 14px;
+  }
+  
+  .text-contact-chat {
+    color: #ababab;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  .contact img {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+  }
+  
+  .contact:hover {
+    background-color: #212121;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact:active {
+    background-color: #3d3d3d;
+    transition: 0.3s;
+  }
+  
+  .contact-active {
+    background-color: #212121;
+    border-radius: 5px;
+  }
+  
+  .input-message {
+    width: 100%;
+    height: 90%;
+    background: rgba(171, 171, 171, 0.15);
+    border: none;
+    color: #ffffff;
+  }
+  
+  .input-category-product {
+    background-color : rgb(131, 131, 131) !important;
+    border: 3px solid white !important;
+    height: 40px;
+    width: 400px;
+  }
+
+  .alertfailed {
+    width: 416px;
+    background-color:rgb(148, 12, 12);
+    font-size: larger;
+  }
+
+ 
+  .card-bg1 {
+  
+     width: 416px;
+      margin: 20px auto;
+      padding: 50px;
+  }
+
+  .bg-card {
+    background: #181818  !important;
+  }
+
+  .bg-card-product {
+    background-color: black !important;
+    color : white !important;
+  }
+
+  .form-input {
+    background-color: rgb(131, 131, 131);
+    border: 2px solid white;
+    height: 40px;
+    border-radius: 3px;
+    
+
+  }
