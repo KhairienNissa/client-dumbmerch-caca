@@ -24,7 +24,7 @@ const ComplainByAdmin = () => {
 
 
     useEffect(() =>{
-        socket = io('https://dumbmerch-khairien.herokuapp.com/api/v1', {
+        socket = io('https://dumbmerch-khairien.herokuapp.com', {
             auth: {
                 token: localStorage.getItem('token')
             },

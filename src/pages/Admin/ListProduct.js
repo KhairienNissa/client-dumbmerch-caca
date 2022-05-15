@@ -31,7 +31,7 @@ const Product = (Props) => {
                        <div className="col-10">
                         <h4>List Product</h4>
                         </div>
-                        <div className="col" style={{marginLeft : "120px"}}>
+                        <div className="col" style={{marginLeft : "90px"}}>
                                 <button className='buttonADD' onClick={()=> navigate('/add-product')}>Add</button>
                         </div>
                     </div>
