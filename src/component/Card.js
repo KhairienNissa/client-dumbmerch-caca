@@ -7,7 +7,7 @@ const CardProduct = ({item}) => {
    
  
     return (
-                 <div className="col-md-2" style={{marginRight:"-30px"}}> 
+                 <div className="col-md-2" style={{marginRight:"-10px"}}> 
                     <NavLink className="nav-link text-black" to={`/detail-page/`+ item.id}
                   exact >
                     <Card style={{ width: '200px', boxShadow: '0 4px 4px 0 grey'}} className="bg-card-product">
